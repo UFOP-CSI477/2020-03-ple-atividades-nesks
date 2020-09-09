@@ -2,13 +2,12 @@
 
 ## Atualize os seus dados:
 
-- Nome:
-- Matrícula:
-- Curso:
-- Semestre/Ano correntes:
-- Link para o seu GitHub:
+- Nome: Felipe Sousa Nunes
+- Matrícula: 16.1.8152
+- Curso: Sistemas de Informação.
+- Semestre/Ano correntes: PLE . 2020/2
+- Link para o seu GitHub: [https://github.com/nesks](https://github.com/nesks)
 
 ## [Projeto final:](./Projeto/README.md) 
 
 Apresente uma breve descrição do seu projeto.
-
