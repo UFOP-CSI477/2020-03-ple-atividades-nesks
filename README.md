@@ -10,4 +10,5 @@
 
 ## [Projeto final:](./Projeto/README.md) 
 
-Apresente uma breve descrição do seu projeto.
+
+Sistema clone do WhatsApp com intuito de comunicar posteriormente com o whatsapp e poder fazer triagem de atendimento!
