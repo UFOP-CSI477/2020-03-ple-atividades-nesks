@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!--Exercicio avaliativo
+    Nome: Felipe Sousa Nunes
+    Matricula: 16.1.8152
+    -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Competição de carrinhos de rolimã</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+<body>
+    <div class="jumbotron">
+        <h1>Carrinho de rolimã</h1>
+            <p>Exercicio Avaliativo 1.1
+                Nome: Felipe Sousa Nunes
+                Matricula: 16.1.8152</p>
+    </div>
+
+    <div class="container">
+
+        <div class="row justify-content-md-center">
+             <div class="col-12">
+                <form id="formulario" class="form-row ">
+                    <div class="form-group col-sm-12">
+                        <label for="nome">Nome:</label>
+                        <input id="nome" type="text" class="form-control" placeholder="Digite nome do competidor">
+                    </div>
+                    <div class="form-group col-sm-12">
+                        <label for="tempo">Tempo:</label>
+                        <input id="tempo" type="number" class="form-control" placeholder="Digite tempo do competidor em segundos">
+                    </div>
+                </form>
+                <div class="row">
+                    <button onclick="salvar()" class="btn btn-dark col-4" type="button">Salvar</button>
+                    <div class=col-4></div>
+                    <button onclick="resultado()" class="btn btn-dark col-4" type="button">Resultado</button>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row justify-content-md-center">
+            <div id="largada" class="col-12">
+                    <h2>Largada</h2>
+
+                    <table class="table table-dark">
+                        <thead>
+                            <tr>
+                                <th scope="col">Largada</th>
+                                <th scope="col">Competidor(a)</th>
+                                <th scope="col">Tempo(s)</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tabela-largada">
+                            <tr>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+            </div>
+    </div>
+
+
+
+         <div class="row justify-content-md-center">
+                <div id="resultado" class="col-12">
+                        <h2>Resultado</h2>
+
+                        <table class="table table-dark">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Posição</th>
+                                    <th scope="col">Largada</th>
+                                    <th scope="col">Competidor(a)</th>
+                                    <th scope="col">Tempo(s)</th>
+                                    <th scope="col">Resultado</th>
+                                </tr>
+                            </thead>
+                            <tbody id="tabela-resultado">
+                                <tr>
+                                    <th>-</th>
+                                    <th>-</th>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                </div>
+        </div>
+
+    </div>
+    <script src="./js/corrida.js"></script>
+    <script>
+
+
+    </script>
+</body>
+</html>
