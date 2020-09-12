@@ -15,9 +15,6 @@ function limpar(){
 
 function salvar(){
 
-    document.getElementById('largada').style.display = 'show';
-    document.getElementById('resultado').style.display = 'none';
-
     if(competidores.length < 6){
     document.getElementById('tabela-largada').innerHTML="";
 
@@ -53,8 +50,6 @@ function salvar(){
 function resultado(){
 
 
-    document.getElementById('largada').style.display = 'none';
-    document.getElementById('resultado').style.display = 'show';
 
     competidores.sort((a, b)=> {
         if (parseInt(a.tempo) < parseInt(b.tempo)) return -1;
